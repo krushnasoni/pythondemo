@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div>
+        {% for x in blogs %}
+            <ul>
+                <li>{{ x.author }}</li>
+                <li>{{ x.title }}</li>
+                <li>{{ x.text }}</li>
+                <li>{{ x.sub_title }}</li>
+            </ul>
+        {% endfor %}
+    </div>
+</body>
+</html>
